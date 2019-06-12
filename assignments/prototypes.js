@@ -43,7 +43,7 @@
 
 function GameObject(attributes) {
   this.name = attributes.name;
-  this.dimension = attributes.dimension;
+  this.dimensions = attributes.dimensions;
 }
 
 GameObject.prototype.destroy = function() {
